@@ -32,12 +32,12 @@ body {
 
 nav .logo {
   color: #7f8cff;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 700;
   margin-top: 4px;
   margin-left: 12px;
-  letter-spacing: 0em;
+  letter-spacing: 0.3px;
   text-align: center;
   padding: 10px 12px;
 }
@@ -50,9 +50,7 @@ nav .logo {
 }
 
 nav .menu-bar {
-  height: 0px;
   width: 20px;
-  border-radius: 0px;
   background: #7f8cff;
   border: 2px solid #7f8cff;
 }
@@ -70,8 +68,8 @@ main {
   margin-top: 114px;
   margin-right: 24px;
   margin-left: 24px;
-  font-family: Poppins;
-  letter-spacing: 0em;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: normal;
   text-align: left;
 }
 
@@ -108,14 +106,13 @@ main {
 .img-i {
   height: 13.72413444519043px;
   width: 4.974092960357666px;
-  border-radius: 0px;
   margin-left: 16px;
 }
 
 .img-N {
   height: 16.965517044067383px;
   width: 12.711573600769043px;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .img-m {
