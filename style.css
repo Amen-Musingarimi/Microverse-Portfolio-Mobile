@@ -1,0 +1,100 @@
+/* Universal styles */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Styling the Navigation bar */
+header nav {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: #7f8cff;
+}
+
+nav .logo {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: normal;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-left: 24px;
+}
+
+.menu-bars {
+  color: black;
+  margin-right: 24px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+/* Styling the main section */
+main {
+  background-image: url("images/header-shapes_mobile\ \(1\).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-page-content {
+  padding-top: 114px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.primary-text {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #172b40;
+}
+
+.decsriptive-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 12px;
+  color: #344563;
+}
+
+.social-media-heading {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 12px;
+  color: #7f8cff;
+}
+
+/* Styling the social media icons */
+section ul {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  list-style: none;
+  padding: 0;
+}
+
+section ul a {
+  text-decoration: none;
+}
+
+section ul .twitter {
+  width: 30px;
+  height: 30px;
+}
+
+section ul .linked-in,
+.message,
+.cat-icon,
+.thumbs-up {
+  margin-left: 24px;
+  width: 30px;
+  height: 30px;
+}
