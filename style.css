@@ -5,135 +5,96 @@
 }
 
 body {
-  font-family: "Times New Roman", Times, serif;
-}
-
-.parent-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.centered-div {
-  width: 375vw;
-  height: 100vh;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Styling the Navigation bar */
-.nav-container {
+header nav {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
 }
 
-.nav-container li {
-  list-style: none;
-  margin: 8px 8px 8px 8px;
-  justify-content: left;
+nav a {
+  text-decoration: none;
+  color: #7f8cff;
 }
 
 nav .logo {
-  color: #7f8cff;
-  font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  margin-top: 4px;
-  margin-left: 12px;
   letter-spacing: normal;
-  text-align: center;
-  padding: 10px 12px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-left: 24px;
 }
 
 .menu-bars {
-  color: #7f8cff;
+  color: black;
   margin-right: 24px;
-  margin-top: 4px;
-  margin-bottom: 4px;
+  margin-top: 14px;
+  margin-bottom: 14px;
 }
 
-nav .menu-bar {
-  width: 20px;
-  background: #7f8cff;
-  border: 2px solid #7f8cff;
-}
-
-/* Styling the background image */
+/* Styling the main section */
 main {
   background-image: url("images/header-shapes_mobile\ \(1\).jpg");
   background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
-/* Styling the main page, home page */
-.content-container {
-  margin-top: 114px;
-  margin-right: 24px;
-  margin-left: 24px;
-  font-family: "Poppins", sans-serif;
-  letter-spacing: normal;
-  text-align: left;
+.main-page-content {
+  padding-top: 114px;
+  padding-right: 24px;
+  padding-left: 24px;
 }
 
-.heading-text {
+.primary-text {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  vertical-align: middle;
-  color: #172b4d;
-  margin-bottom: 12px;
+  color: #172b40;
 }
 
-.text {
+.decsriptive-text {
   font-size: 16px;
-  line-height: 24px;
-  margin-bottom: 12px;
-}
-
-.decription-text {
   font-weight: 400;
+  line-height: 24px;
+  margin-top: 12px;
   color: #344563;
 }
 
-.message-text {
+.social-media-heading {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 12px;
   color: #7f8cff;
 }
 
-/* styling the icons */
-.img-twitter {
-  height: 19.962478637695312px;
-  width: 19.985925674438477px;
+/* Styling the social media icons */
+section ul {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  list-style: none;
+  padding: 0;
 }
 
-.img-i {
-  height: 13.72413444519043px;
-  width: 4.974092960357666px;
-  margin-left: 16px;
+section ul a {
+  text-decoration: none;
 }
 
-.img-N {
-  height: 16.965517044067383px;
-  width: 12.711573600769043px;
-  margin-left: 0;
+section ul .twitter {
+  width: 30px;
+  height: 30px;
 }
 
-.img-m {
-  height: 16px;
-  width: 20px;
-  margin-left: 16px;
-}
-
-.img-cat {
-  height: 20px;
-  width: 17.985200881958008px;
-  margin-left: 16px;
-}
-
-.img-thumbs {
-  height: 20px;
-  width: 14.166671752929688px;
-  margin-left: 16px;
+section ul .linked-in,
+.message,
+.cat-icon,
+.thumbs-up {
+  margin-left: 24px;
+  width: 30px;
+  height: 30px;
 }
