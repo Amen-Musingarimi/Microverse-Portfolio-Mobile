@@ -87,6 +87,7 @@ section ul {
 
 section ul a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 section ul .twitter {
@@ -106,13 +107,13 @@ section ul .linked-in,
 /* Styling the works section */
 
 .grid-container {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  padding-right: 24px;
+  padding-left: 24px;
 }
 
 .works {
-  padding-right: 24px;
-  padding-left: 24px;
-  margin: auto 0;
   padding-top: 114px;
 }
 
@@ -194,6 +195,17 @@ ul button {
   padding-bottom: 4px;
   padding-left: 12px;
   padding-right: 12px;
+  cursor: pointer;
+}
+
+ul button:hover {
+  color: #fff;
+  background-color: #6070ff;
+}
+
+ul button:active {
+  color: #fff;
+  background-color: #0000ff;
 }
 
 ul .works-btn {
@@ -212,6 +224,17 @@ ul .works-btn {
   border: 1px solid #396df2;
   border-radius: 8px;
   padding: 12px;
+  cursor: pointer;
+}
+
+.see-project-btn:hover {
+  color: #fff;
+  background-color: #6070ff;
+}
+
+.see-project-btn:active {
+  color: #fff;
+  background-color: #0000ff;
 }
 
 .see-resume-btn {
@@ -225,6 +248,17 @@ ul .works-btn {
   padding: 12px;
   margin-top: 26px;
   margin-bottom: 26px;
+  cursor: pointer;
+}
+
+.see-resume-btn:hover {
+  color: #fff;
+  background-color: #6070ff;
+}
+
+.see-resume-btn:active {
+  color: #fff;
+  background-color: #0000ff;
 }
 
 /* Styling the languages section */
