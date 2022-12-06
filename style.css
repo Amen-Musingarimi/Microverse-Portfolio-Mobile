@@ -205,7 +205,7 @@ ul button:hover {
 
 ul button:active {
   color: #fff;
-  background-color: #0000ff;
+  background-color: #1d1d9e;
 }
 
 ul .works-btn {
@@ -234,7 +234,7 @@ ul .works-btn {
 
 .see-project-btn:active {
   color: #fff;
-  background-color: #0000ff;
+  background-color: #1d1d9e;
 }
 
 .see-resume-btn {
@@ -258,7 +258,7 @@ ul .works-btn {
 
 .see-resume-btn:active {
   color: #fff;
-  background-color: #0000ff;
+  background-color: #1d1d9e;
 }
 
 /* Styling the languages section */
