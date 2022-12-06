@@ -1,4 +1,5 @@
 /* Universal styles */
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -9,6 +10,7 @@ body {
 }
 
 /* Styling the Navigation bar */
+
 header nav {
   display: flex;
   align-items: baseline;
@@ -37,6 +39,7 @@ nav .logo {
 }
 
 /* Styling the main section */
+
 main {
   background-image: url('images/header-shapes_mobile\ \(1\).jpg');
   background-repeat: no-repeat;
@@ -101,6 +104,7 @@ section ul .linked-in,
 }
 
 /* Styling the works section */
+
 .grid-container {
   display: grid;
 }
@@ -224,6 +228,7 @@ ul .works-btn {
 }
 
 /* Styling the languages section */
+
 .languages-h2 {
   color: #000;
   font-size: 20px;
@@ -233,6 +238,7 @@ ul .works-btn {
   margin-bottom: 36px;
   margin-top: 40px;
 }
+
 .languages {
   display: flex;
   align-items: center;
